@@ -1,0 +1,41 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Código",
+            "icon": "pencil.slash",
+            "color": "#56c4ad",
+            "duration": 90
+        },{
+            "id": 2,
+            "name": "Carreira",
+            "icon": "graduationcap.circle.fill",
+            "color": "#4485ad",
+            "duration": 60
+        },{
+            "id": 3,
+            "name": "Entrevista",
+            "icon": "books.vertical.fill",
+            "color": "#ba9b54",
+            "duration": 150
+        },{
+            "id": 4,
+            "name": "Feedback",
+            "icon": "scribble.variable",
+            "color": "#e68567",
+            "duration": 30
+        },{
+            "id": 5,
+            "name": "Aula Personalizada",
+            "icon": "arrow.3.trianglepath",
+            "color": "#cc14c9",
+            "duration": 120
+        },{
+            "id": 6,
+            "name": "Revisão",
+            "icon": "folder.fill",
+            "color": "#f095a5",
+            "duration": 60
+        }
+    ]
+}
