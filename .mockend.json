@@ -1,0 +1,18 @@
+{
+    "Services": {
+        "name": {
+            "string": [
+                "Código",
+                "Carreira",
+                "Entrevista",
+                "Feedback",
+                "Aula Personalizada",
+                "Revisão"
+            ]
+        },
+        "duration": { "int": { "min": 0, "max": 300 } } ,
+        "color": { 
+            "regexp": "#[0-9A-F]{6}" 
+        }
+    }
+}
