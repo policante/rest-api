@@ -7,7 +7,7 @@
           "loremWords": { "minLength": 5, "maxLength": 20 }
         },
         "author": {
-          "string": { "minLength": 5, "maxLength": 20 }
+          "string": {}
         },
         "category": {
           "string": ["Terror", "Comédia", "Drama", "Infantil", "Ficção", "Outros"]
