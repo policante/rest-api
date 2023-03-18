@@ -3,6 +3,9 @@
         "_": {
           "items": 30
         },
+        "photo": {
+            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
+        },
         "title": {
           "loremWords": { "minLength": 5, "maxLength": 20 }
         },
