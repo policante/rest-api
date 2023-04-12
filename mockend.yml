@@ -10,6 +10,7 @@ models:
             isHighlight: { bool: 10 }
             stock: { int: [0, 10] }
             price: { int: [10000, 100000]
+            
     Comment:
         belongsTo: [Book]
         fake:
