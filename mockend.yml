@@ -1,0 +1,20 @@
+models: 
+    Book:
+        hasMany: [Comment]
+        fake:
+            _count: 30,
+            photo: { imageURL: [500, 500] }
+            title: { loremWords: [1, 5] }
+            author: name
+            category: { stringOf: [Terror, Comédia, Drama, Infantil, Ficção, Outros] }
+            isHighlight: { bool: 10 }
+            stock: { int: [0, 10] }
+            price: { int: [10000, 100000]
+    Comment:
+        belongsTo: [Book]
+        fake:
+            _count: 50
+            email: email
+            body: loremParagraphs
+            rate: { int: [1, 5] }
+            createdAt: { dateTime: [2020-01-01T00:00:00Z, 2023-03-31T23:59:59Z] }
